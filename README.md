@@ -1,2 +1,71 @@
-# sports-outcome-prediction-solver
-This repository contains an educational sports analytics project demonstrating solver-based optimization models applied to NFL and NBA game outcomes.
+# Sports Outcome Prediction Using Solver Optimization
+
+This repository contains an **educational sports analytics project** that applies **Excel Solver–based optimization** to model and compare game outcomes across multiple professional sports leagues. The project demonstrates how least-squares optimization can be used to estimate **relative team strength** and **home advantage**, and how model behavior varies across sports with different scoring structures.
+
+> ⚠️ **Note**  
+> This project was completed as part of an academic course and follows instructional methodology. It is intended for **learning and portfolio demonstration purposes only**.
+
+---
+
+## Project Overview
+
+The goal of this project is to explore how **optimization techniques** can be applied to real-world sports data to:
+
+- Estimate team ratings based on historical game results  
+- Quantify home-field / home-court advantage  
+- Compare model behavior across different sports environments  
+
+Two leagues are analyzed:
+- **NFL** – Low-scoring, high-variance environment
+- **NBA** – High-scoring, large-sample environment
+
+Both models use the same underlying framework but produce different numerical characteristics due to sport-specific dynamics.
+
+---
+
+## Modeling Approach
+
+For each league, the following steps were performed:
+
+1. **Data Collection**
+   - Game results were scraped from publicly available sports reference websites using Python.
+2. **Data Preparation**
+   - Data was cleaned and structured using Excel Power Query.
+   - Game-level margins were computed.
+3. **Solver Optimization**
+   - Excel Solver was used to minimize the **sum of squared errors (SSE)** between actual and predicted margins.
+   - Team ratings and a home advantage parameter were optimized.
+   - A constraint was imposed such that the **average team rating equals zero**.
+4. **Interpretation**
+   - Model outputs were analyzed and compared across sports.
+   - Neutral-site comparisons were used to illustrate how ratings translate into predicted margins.
+
+---
+
+## NFL Model (Super Bowl Application)
+
+- Based on 2025 NFL regular season data
+- Includes estimation of home-field advantage
+- Super Bowl treated as a **neutral-site game**
+- Final output includes a predicted point margin between the two Super Bowl teams
+
+**Key takeaway:**  
+NFL outcomes exhibit higher relative volatility due to fewer games and lower scoring, resulting in larger sensitivity to individual matchups.
+
+---
+
+## NBA Model (Cross-Sport Extension)
+
+- Based on 2026 NBA regular season data
+- Uses the same Solver framework as the NFL model
+- Produces a tighter distribution of team ratings and a smaller home-court advantage
+
+An example neutral-site comparison (Boston Celtics vs. Los Angeles Lakers) is included to demonstrate how NBA ratings can be interpreted.
+
+**Key takeaway:**  
+Higher scoring and larger sample sizes in the NBA lead to more stable optimization behavior compared to the NFL.
+
+---
+
+## Repository Structure
+
