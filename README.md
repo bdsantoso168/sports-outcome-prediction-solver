@@ -1,5 +1,5 @@
 # Sports Outcome Prediction Using Solver Optimization
-![SuperBowel and NBA Predictor Thumbnail.png…]()
+<img width="2802" height="1361" alt="SuperBowel and NBA Predictor Thumbnail" src="https://github.com/user-attachments/assets/4e5a8937-71f3-4286-ad34-e70e41db2feb" />
 
 This repository contains an **educational sports analytics project** that applies **Excel Solver–based optimization** to model and compare game outcomes across multiple professional sports leagues. The project demonstrates how least-squares optimization can be used to estimate **relative team strength** and **home advantage**, and how model behavior varies across sports with different scoring structures.
 
