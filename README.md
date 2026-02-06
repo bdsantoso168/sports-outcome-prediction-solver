@@ -25,6 +25,20 @@ Both models use the same underlying framework but produce different numerical ch
 
 ---
 
+### Example Neutral-Site Team Comparison (Super Bowl)
+
+The following comparison illustrates how the optimized team ratings translate into a predicted point margin under a neutral-site assumption (no home-field advantage applied).
+
+![NFL Super Bowl Team Comparison](assets/screenshots/NFL_superbowl_prediction.png)
+
+### Example Neutral-Site Team Comparison
+
+This example compares two NBA teams using optimized ratings to demonstrate how relative team strength translates into an expected point margin under neutral-site conditions.
+
+![NBA Celtics vs Lakers Comparison](assets/screenshots/nba_celtics_lakers_comparison.png)
+
+---
+
 ## End-to-End Workflow
 
 This project follows a structured analytics pipeline:
