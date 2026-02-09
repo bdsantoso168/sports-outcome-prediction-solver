@@ -93,6 +93,12 @@ For each league, the following steps were performed:
 **Key takeaway:**  
 NFL outcomes exhibit higher relative volatility due to fewer games and lower scoring, resulting in larger sensitivity to individual matchups.
 
+### Super Bowl LX Outcome
+
+The Seattle Seahawks defeated the New England Patriots 29–13 in Super Bowl LX, securing their second championship. The model’s small pre-game edge for Seattle was aligned directionally with the result, although the actual margin was larger than the neutral-site predicted margin.
+
+This reflects an important distinction between *expected tendencies* from season-level data and the *actual outcome of a single game*. Game-day variability — including defense, turnovers, and execution — can lead to final scores that differ from pre-game model expectations.
+
 ---
 
 ## NBA Model (Cross-Sport Extension)
@@ -105,10 +111,6 @@ An example neutral-site comparison (Boston Celtics vs. Los Angeles Lakers) is in
 
 **Key takeaway:**  
 Higher scoring and larger sample sizes in the NBA lead to more stable optimization behavior compared to the NFL.
-
----
-
-## Repository Structure
 
 ---
 
